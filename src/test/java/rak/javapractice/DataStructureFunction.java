@@ -92,7 +92,7 @@ public class DataStructureFunction {
         int avg = sum / abcdfe.size();
 
         for (int i = 0; i < abcdfe.size(); i++) {
-            if (abcdfe.get(i) <= 40) {
+            if (abcdfe.get(i) < 40) {
                 return false;
             }
         }

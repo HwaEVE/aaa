@@ -91,19 +91,11 @@ public class DataStructureFunction {
 
         int avg = sum / abcdfe.size();
 
-        int subjectscore = 40;
-        int avgscore = 60;
-
         for (int i = 0; i < abcdfe.size(); i++) {
-            if (abcdfe.get(i) >= subjectscore){
-
+            if (abcdfe.get(i) <= 40) {
+                return false;
             }
-        } if ()
-
-            if (avg >= avgscore){
-
-            }
-
-return :
+        }
+        return avg >= 60;
     }
 }

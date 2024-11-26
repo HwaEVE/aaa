@@ -1,30 +1,30 @@
-package rak.javapractice;
+//package rak.javapractice;
+//
+//import org.junit.jupiter.api.Test;
+//
+//import java.util.ArrayList;
+//
+//public class DataStructure {
+//
+//
+//    @Test
+//    void TestScore() {
 
-import org.junit.jupiter.api.Test;
-
-import java.util.ArrayList;
-
-public class DataStructure {
-
-
-    @Test
-    void TestScore() {
-
-        ArrayList<Integer> TestScore = new ArrayList<>();
-
-        TestScore.add(80);
-        TestScore.add(60);
-        TestScore.add(70);
-        TestScore.add(100);
-        TestScore.add(90);
-
-        int sum = 0;
-
-        for (int 총점 : TestScore) {
-            sum = 총점 + sum;
-        }
-
-        int avg = sum / TestScore.size();
+//        ArrayList<Integer> TestScore = new ArrayList<>();
+//
+//        TestScore.add(80);
+//        TestScore.add(60);
+//        TestScore.add(70);
+//        TestScore.add(100);
+//        TestScore.add(90);
+//
+//        int sum = 0;
+//
+//        for (int 총점 : TestScore) {
+//            sum = 총점 + sum;
+//        }
+//
+//        int avg = sum / TestScore.size();
 
 //        int maxscore = TestScore.get(0);
 //
@@ -52,5 +52,5 @@ public class DataStructure {
 //            }
 //        }
 //        TestScore.add(avgThanScore);
-    }
-}
+//    }
+//}
